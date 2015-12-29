@@ -44,3 +44,25 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+hero/.classpath
+
+hero/.factorypath
+
+hero/.project
+
+hero/.settings/.jsdtscope
+
+hero/.settings/org.eclipse.jdt.apt.core.prefs
+
+hero/.settings/org.eclipse.jdt.core.prefs
+
+hero/.settings/org.eclipse.m2e.core.prefs
+
+hero/.settings/org.eclipse.wst.common.component
+
+hero/.settings/org.eclipse.wst.common.project.facet.core.xml
+
+hero/.settings/org.eclipse.wst.jsdt.ui.superType.container
+
+hero/.settings/org.eclipse.wst.jsdt.ui.superType.name
