@@ -4,6 +4,7 @@
 	<groupId>net.soonk</groupId>
 	<artifactId>hero</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 
 	<dependencies>
@@ -37,4 +38,27 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>wildfly</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.wildfly.plugins</groupId>
+						<artifactId>wildfly-maven-plugin</artifactId>
+						<version>1.1.0.Alpha4</version>
+						<executions>
+							<execution>
+								<phase>install</phase>
+								<goals>
+									<goal>deploy</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	
 </project>
