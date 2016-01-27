@@ -2,6 +2,9 @@ Setup
 
 Create docker machine
 
+Start docker machine
+docker-machine start scorekeeper
+
 Connect to docker machine
 
 
@@ -9,6 +12,10 @@ Connect to docker machine
 In docker/jboss directory
 Download jboss
 docker build -t soonk12/jboss-eap:7-beta .
+
+
+Start compose
+docker-compose --x-networking up -d
 
 
 Deploy hero service:
